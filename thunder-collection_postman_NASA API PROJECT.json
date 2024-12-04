@@ -1,0 +1,93 @@
+{
+    "info": {
+        "_postman_id": "8e27535b-9b6e-4e05-8a18-c644113afe9f",
+        "name": "NASA API PROJECT",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "NASA API - ACTIVITIES",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/api/instruments",
+                    "path": [
+                        "api",
+                        "instruments"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "NASA API - ACTIVITIES",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/api/instruments",
+                    "path": [
+                        "api",
+                        "instruments"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "NASA API - INSTRUMENT USAGE",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/api/instruments/usage",
+                    "path": [
+                        "api",
+                        "instruments",
+                        "usage"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                }
+            }
+        },
+        {
+            "name": "NASA API - INSTRUMENT USAGE POST",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:8080/api/instruments/usage",
+                    "path": [
+                        "api",
+                        "instruments",
+                        "usage"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\r\n    \"instrument\": \"SOHO: LASCO/C2\"\r\n}\r\n"
+                }
+            }
+        }
+    ]
+}
